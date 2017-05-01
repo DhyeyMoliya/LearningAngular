@@ -1,0 +1,13 @@
+.example {
+  margin-left: 20px;
+}
+.comment {
+  color: green;
+}
+pre {
+  color: darkblue;
+  padding-left: 20px;
+}
+h4 span {
+  color: darkblue;
+}

@@ -1,0 +1,40 @@
+<h2>
+  {{ title }}
+</h2>
+<br/>
+<h4 ngNonBindable><b>String Interpolation : </b><span> {{ data }} </span></h4>
+<b>Example : </b>
+<div class="example">
+  <div>
+    <pre>{{ interpolationText }} <span class="comment">{{ interpolationComment }}</span></pre>
+  </div>
+  <div class="example-output"><b>Output: </b>{{ interpolationVar }}</div>
+</div>
+<br/>
+<h4 ngNonBindable><b>Property Binding : </b><span> [property]="data" </span></h4>
+<b>Example : </b>
+<div class="example">
+  <div>
+    <pre>{{ propertyBindingText }} <span class="comment">//inputValue = 'Hello'</span></pre>
+  </div>
+  <div class="example-output"><b>Output: </b><input [value]="inputValue" /></div>
+</div>
+<br/>
+<h4 ngNonBindable><b>Event Binding : </b><span> (event)="expression" </span></h4>
+<b>Example : </b>
+<div class="example">
+  <div>
+    <pre>{{eventBindingText}}<br/><span class="comment">{{ eventBindingComment }}</span></pre>
+  </div>
+  <div class="example-output"><b>Output: </b><button class="btn btn-primary" (click)="showAlert()">Show Alert</button></div>
+</div>
+<br/>
+<h4 ngNonBindable><b>Two-way Binding : </b><span> [(ngModel)] = data </span></h4>
+<b>Example : </b>
+<div class="example">
+  <div>
+    <pre>{{ twoWayBindingText }} <span class="comment">{{ twoWayBindingComment }}</span></pre>
+  </div>
+  <div class="example-output"><b>Output: </b><input [(ngModel)]="twoWayProp" /> {{ twoWayProp }}</div>
+</div>
+<br/>
