@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BindingComponent implements OnInit {
 
-  title = 'Binding Examples';
+  title = '2 - 022 Data Binding';
   interpolationVar = 'interpolating!';
   inputValue = 'Hello';
   twoWayProp = 'Hi!';
